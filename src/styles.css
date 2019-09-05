@@ -1,1 +1,62 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #1F1E2D;
+    color: #fff;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height:100vh;
+    overflow-x: hidden;
+
+}
+
+main{
+    background-color: #004BA0;
+    border-radius: 3px;
+    margin: 6rem 2rem 2rem 2rem;
+    padding-top:2rem;
+    min-height: 20rem;
+}
+
+h1{
+    font-weight:400;
+    font-size: 3rem;
+}
+
+h1, .intro-paragraph{
+    text-align: center;
+}
+
+.seperator{
+    height:1px;
+    background-color: #fff;
+    opacity: 0.5;
+
+    margin-bottom: 2rem;
+}
+
+.intro-paragraph{
+    opacity: 0.9;
+    margin-bottom: 2rem;
+}
+
+button{
+    text-transform: uppercase;
+    font-family: 'Roboto', Arial, san-serif;
+    font-weight: 500;
+    font-size: 0.75rem;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    color: #fff;
+    background-color: rgba(0,0,0, 0);
+    cursor: pointer;
+}

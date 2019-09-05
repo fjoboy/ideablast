@@ -1,0 +1,28 @@
+#main-section{
+    padding:0 1.5rem 2rem 1.5rem;
+}
+
+.idea-input-container > *{
+    width:100%;
+}
+
+#idea-input, #idea-input:focus{
+    font-size:1rem;
+    padding: 10px 10px 10px 20px;
+    background-color: rgba(0,0,0, 0.5);
+    color: #fff;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgba(255,255,255, 0.5)
+}
+
+label[name="idea-label"]{
+    margin-left: 20px;
+    font-size:0.75rem;
+    opacity: 0.9;
+}
+
+#show-ideas-btn{
+    margin-top:2rem;
+}

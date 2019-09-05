@@ -1,0 +1,52 @@
+#ideas-list{
+    padding:2rem 1.5rem 2rem 1.5rem;
+    background: rgba(0,0,0, 0.5);
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.idea-card{
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+.idea-text{
+    margin-bottom:1rem;
+}
+
+.idea-metabar{
+    font-size: 0.80rem;
+    margin-bottom: 3px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: baseline;
+}
+
+.idea-delete{
+    margin-left:auto;
+    color: red;
+    cursor: pointer;
+}
+
+.upvotes::after, .upvote-btn::after{
+    content: "|";
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.upvote-btn{
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.idea-date{
+    opacity: 0.5;
+}
+
+.seperator-idea{
+    opacity: 0.75 !important;
+}
+
+#another-idea-btn{
+    margin: 1.5rem 1.5rem 1.5rem;
+}

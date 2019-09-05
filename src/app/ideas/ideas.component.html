@@ -1,0 +1,16 @@
+<section id="ideas-section">
+    <section id="ideas-list">
+        <article class="idea-card" *ngFor="let idea of ideas | async">
+            <div class="idea-text"> {{ idea.idea }} </div>
+            <div class="idea-metabar">
+                <span class="upvotes"> {{ idea.upvotes }} {{idea.upvotes === 1 ? 'upvote' : 'upvotes'}} </span>
+                <span class="upvote-btn"> upvote </span>
+                <span class="idea-date"> {{ idea.date | date }} </span>
+                <span class="idea-delete"> delete </span>
+            </div>
+            <div class="seperator seperator-idea"></div>
+        </article>
+    </section>
+        
+    <button id="another-idea-btn" routerLink="/">Add another idea</button>
+</section>
