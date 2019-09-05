@@ -1,7 +1,7 @@
 #ideas-list{
     padding:2rem 1.5rem 2rem 1.5rem;
     background: rgba(0,0,0, 0.5);
-    height: 300px;
+    height: 12rem;
     overflow-y: scroll;
 }
 
@@ -11,12 +11,13 @@
 }
 
 .idea-text{
-    margin-bottom:1rem;
+    margin-bottom:0.85rem;
+    font-weight:400;
 }
 
 .idea-metabar{
     font-size: 0.80rem;
-    margin-bottom: 3px;
+    margin-bottom: 5px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: baseline;
