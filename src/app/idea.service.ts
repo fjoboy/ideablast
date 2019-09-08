@@ -14,4 +14,9 @@ export class IdeaService {
   getIdeas(){
     return this.http.get('/assets/ideas.json');
   }
+
+  deleteIdea(ideaId: number): void{
+    console.log(ideaId)
+    console.log(this.getIdeas()[0]);
+  }
 }

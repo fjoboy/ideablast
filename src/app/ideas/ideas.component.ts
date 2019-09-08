@@ -19,4 +19,9 @@ export class IdeasComponent implements OnInit {
     this.ideas = this.ideaService.getIdeas();
   }
 
+  deleteIdea(ideaId: number): void{
+    this.ideaService.deleteIdea(ideaId);
+  
+  }
+
 }

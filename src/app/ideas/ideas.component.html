@@ -6,7 +6,7 @@
                 <span class="upvotes"> {{ idea.upvotes }} {{idea.upvotes === 1 ? 'upvote' : 'upvotes'}} </span>
                 <span class="upvote-btn"> upvote </span>
                 <span class="idea-date"> {{ idea.date | date }} </span>
-                <span class="idea-delete"> delete </span>
+                <span class="idea-delete" (click)="deleteIdea(idea.id)" > delete</span>
             </div>
             <div class="seperator seperator-idea"></div>
         </article>
